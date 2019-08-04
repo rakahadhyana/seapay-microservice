@@ -4,7 +4,7 @@
 
  * [Description](#description)
  * [Installation](#installation)
- * [Usage](#how-to-use)
+ * [Usage](#usage)
  + [Making a simple `GET` request](#making-a-simple-get-request)
  + [Creating a hystrix-like circuit breaker](#creating-a-hystrix-like-circuit-breaker)
  + [Creating an HTTP client with a retry mechanism](#creating-an-http-client-with-a-retry-mechanism)
@@ -48,7 +48,7 @@ The project itself has 4 modules
  #if you don't have postgres
  brew install postgres
  ```
- # How To Use
+ # Usage
  ### How to build
  ```
  make all

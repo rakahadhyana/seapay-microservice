@@ -4,11 +4,7 @@
 
  * [Description](#description)
  * [Installation](#installation)
- * [Usage](#usage)
- + [Making a simple `GET` request](#making-a-simple-get-request)
- + [Creating a hystrix-like circuit breaker](#creating-a-hystrix-like-circuit-breaker)
- + [Creating an HTTP client with a retry mechanism](#creating-an-http-client-with-a-retry-mechanism)
- + [Custom retry mechanisms](#custom-retry-mechanisms)
+ * [Usage](#how-to-use)
  * [Documentation](#documentation)
  * [FAQ](#faq)
  * [License](#license)
@@ -40,15 +36,22 @@ The project itself has 4 modules
  # Installation
 
  ### Dependencies
- MacOS:
- ```
- #if you don't have java
- brew cask install java
- 
- #if you don't have postgres
- brew install postgres
- ```
- # Usage
+   MacOS:
+   ```
+   #if you don't have java
+   brew cask install java
+
+   #if you don't have postgres
+   brew install postgres
+   ```
+
+   Ubuntu:
+
+   [Java Install](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04)
+
+   [install postgres](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04)
+
+ # How To Use
  ### How to build
  ```
  make all
@@ -57,7 +60,7 @@ The project itself has 4 modules
  ### How to run
  - Monolith
  ```
- make run-monolith:
+ make run-monolith
  ```
  - Microservice <br>
  if you want to run the microservices run each command in different terminal
@@ -71,7 +74,18 @@ The project itself has 4 modules
  make run-transaction
  ```
 
-  
+ 
+## Documentation
+Projects port list
+  - API gateway
+    - http://localhost:8080
+  - User account
+    - http://localhost:8081
+  - Wallet
+    - http://localhost:8082
+  - Transaction
+    - http://localhost:8083
+
 
 
 

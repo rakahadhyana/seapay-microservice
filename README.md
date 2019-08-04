@@ -48,7 +48,7 @@ The project itself has 4 modules
  #if you don't have postgres
  brew install postgres
  ```
-
+ # How To Use
  ### How to build
  ```
  make all

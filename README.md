@@ -4,7 +4,7 @@
 
  * [Description](#description)
  * [Installation](#installation)
- * [Usage](#how to use)
+ * [Usage](#how-to-use)
  + [Making a simple `GET` request](#making-a-simple-get-request)
  + [Creating a hystrix-like circuit breaker](#creating-a-hystrix-like-circuit-breaker)
  + [Creating an HTTP client with a retry mechanism](#creating-an-http-client-with-a-retry-mechanism)
@@ -37,7 +37,7 @@ The project itself has 4 modules
  - seapay-monolith
    - an entry point of our monolithic app, including all handlers
   
- # How to use
+ # Installation
 
  ### Dependencies
  MacOS:
